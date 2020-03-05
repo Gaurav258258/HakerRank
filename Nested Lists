@@ -1,0 +1,12 @@
+n=int(input())
+a=list()
+for i in  range(n):
+    a.append([input(), float(input())])
+res=set([a[x][1] for x in range(n)])
+res=list(res)
+res.sort()
+
+a=[x[0] for x in a if x[1] == res[1]]
+a.sort()
+for s in a:
+    print(s)
