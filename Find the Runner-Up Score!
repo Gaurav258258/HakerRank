@@ -1,0 +1,7 @@
+n = int(input()) 
+lst=map(int,input().split())
+l=list(lst)
+a=set(l)
+b=list(a)
+c=b.sort(),reverse=True
+print(c[1]) 
